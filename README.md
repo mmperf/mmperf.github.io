@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to mmperf
+
+mmperf is a single core GEMM benchmark. It is designed to benchmark well known Matrix Multiplication packages
 
 You can use the [editor on GitHub](https://github.com/mmperf/mmperf.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
