@@ -2,38 +2,29 @@
 
 mmperf is a single core GEMM benchmark. It is designed to benchmark well known Matrix Multiplication packages
 
-You can use the [editor on GitHub](https://github.com/mmperf/mmperf.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Handmade kernels:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Intel MKL
+- OpenBLAS
+- RUY
+- Accelerate
+- (TODO) OpenBLIS
+- (TODO) ATLAS
 
-### Markdown
+# Compiler / Codegen kernels
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- MLIR
+- Halide
+- (TODO) TVM 
 
-```markdown
-Syntax highlighted code block
+### Results
 
-# Header 1
-## Header 2
-### Header 3
+![Skylake Results](https://github.com/mmperf/mmperf/blob/main/matmul.png)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mmperf/mmperf.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Code
+For more details see [GitHub Flavored Markdown](https://github.com/mmperf/mmperf/).
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+mmperf aims to be a collaborative effort though primarily developed by [nod.ai](https://nod.ai) so if you notice a way to configure the libraries to get better performance please submit a PR. 
