@@ -20,7 +20,7 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 ### Results
 
 ### Sample results on Intel(R) Xeon(R) E-2276M Coffeelake (Thinkpad P53)
-![Results](https://github.com/mmperf/mmperf/blob/main/official_results/haswell/2021-01-24_15-25-42/matmul.png)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/haswell/2021-01-24_15-25-42/matmul.png)
 
 
 ### Code
