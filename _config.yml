@@ -1,1 +1,3 @@
 theme: jekyll-theme-architect
+title: [MMPERF - single core matmul performance benchmark]
+description: [Single Core MatMul performance benchmark]
