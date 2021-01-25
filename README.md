@@ -28,4 +28,4 @@ For more details see [mmperf on Github](https://github.com/mmperf/mmperf/).
 
 ### Support or Contact
 
-mmperf aims to be a collaborative effort though primarily developed by [nod.ai](https://nod.ai) so if you notice a way to configure the libraries to get better performance please submit a PR. 
+mmperf aims to be a collaborative effort though primarily developed by [nod.ai](https://nod.ai) so if you can get better performance or add a new backend please submit a PR. 
