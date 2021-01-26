@@ -20,12 +20,15 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 ### Results
 
 
-### Sample results on Intel XEON Skylake (GCP C2 instance, AVX512)
+### Results on Intel XEON Skylake (GCP C2 instance, AVX512)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-01-26_01-12-27/matmul.png)
 
-### Sample results on AMD Threadripper 3990x (ZenV2, AVX2)
+### Results on AMD Threadripper 3990x (ZenV2, AVX2)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/znver2/2021-01-25_13-24-25/matmul.png)
 
+### Results on Apple M1 8GB Mac Mini (NEON - no AMX2)
+Note: 8GB Mac Mini runs roughly 25% slower than the 16GB version on other tests.
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-a13/2021-01-26_15-39-08/matmul.png)
 
 ### Code
 For more details see [mmperf on Github](https://github.com/mmperf/mmperf/).
