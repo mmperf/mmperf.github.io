@@ -19,6 +19,10 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 
 ### Results
 
+
+### Sample results on Intel XEON Skylake (GCP C2 instance, AVX512)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-01-26_01-12-27/matmul.png)
+
 ### Sample results on AMD Threadripper 3990x (ZenV2, AVX2)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/znver2/2021-01-25_13-24-25/matmul.png)
 
