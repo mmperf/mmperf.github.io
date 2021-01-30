@@ -15,6 +15,7 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 - MLIR
 - Halide
 - TVM 
+- Nod.AI
 
 ## Results
 
