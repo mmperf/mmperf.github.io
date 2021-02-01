@@ -19,11 +19,10 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 
 ## Results
 
-
 ### Results on Intel XEON Skylake (iMAC PRO, AVX512)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-01-31_19-11-51-528540/matmul.png)
 
-### Results on AMD Ryzen 5950x (ZenV3, compared to AMD's BLIS and OpenBLAS for RESNET50 sizes)
+### Results on Xeon Cascade Lake (GCP C2 instance, AVX 512)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/znver2/2021-01-29_16-16-24-502902/matmul.png)
 
 
@@ -36,11 +35,6 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 ### Results on Apple M1 (NEON - no AMX2)
 Note: 8GB Mac Mini runs roughly 25% slower than the 16GB version on other tests.
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-a13/2021-01-26_15-39-08/matmul.png)
-
-### Results on Apple M1 (RUY/MLIR using NEON - Accelerate with AMX2)
-Note 0: 8GB Mac Mini runs roughly 25% slower than the 16GB version on other tests.
-Note 1: Set veclib_maximum_threads=1 but there is no way to verify it is honored by Accelerate. 
-![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-a13/2021-01-26_18-33-13/matmul.png)
 
 ### Code
 For more details see [mmperf on Github](https://github.com/mmperf/mmperf/).
