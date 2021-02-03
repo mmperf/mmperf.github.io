@@ -25,11 +25,14 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 ### Results on Xeon Cascade Lake (GCP C2 instance, AVX 512)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/cascadelake/2021-01-31_15-47-19-968148/matmul.png)
 
+### Results on Xeon Cascade Lake Codegen TVM, Halide, MLIR (GCP C2 instance, AVX 512)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-02-03_21-27-25-624537/matmul.png)
+
 ### Results on AMD Ryzen 5950x (ZenV3, compared to AMD's BLIS and OpenBLAS for RESNET50 sizes)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/znver2/2021-01-29_16-16-24-502902/matmul.png)
 
 ### Results on Intel XEON E-2276M Coffee lake (Thinkpad P53, AVX2)
-![Results](https://github.com/mmperf/mmperf/raw/main/official_results/haswell/2021-01-26_16-42-20/matmul.png)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/haswell/2021-02-03_14-06-35-488724/matmul.png)
 
 ### Results on Apple M1 (NEON - no AMX2)
 Note: 8GB Mac Mini runs roughly 25% slower than the 16GB version on other tests.
