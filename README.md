@@ -19,10 +19,10 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 
 ## Results
 
-### Results on 16" Apple Macbook Pro (2021) M1MAX 32GB 
+### Results on 16" Apple Macbook Pro (2021) M1MAX 32GB (RUY/IREE is using Neon vs Accelerate using AMX)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-m1max/matmul.png)
 
-### Results on 13" Apple Macbook Pro (2020) M1 8GB (16GB is a little faster)
+### Results on 13" Apple Macbook Pro (2020) M1 8GB (16GB is a little faster) RUY uses NEON and Accelerate AMX
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-a13/2021-01-26_18-33-13/matmul.png)
 
 ### Results on Xeon Cascade Lake Codegen TVM, Halide, MLIR (GCP C2 instance, AVX 512)
