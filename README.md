@@ -19,20 +19,22 @@ mmperf is a single core GEMM benchmark. This repository aims to benchmark Matrix
 
 ## Results
 
-### Results on 16" Apple Macbook Pro (2021) M1MAX 32GB (RUY/IREE is using Neon vs Accelerate using AMX)
-![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-m1max/matmul.png)
+###
 
-### Results on 13" Apple Macbook Pro (2020) M1 8GB (16GB is a little faster) RUY uses NEON and Accelerate AMX
-![Results](https://github.com/mmperf/mmperf/raw/main/official_results/apple-a13/2021-01-26_18-33-13/matmul.png)
+### Results on Nvidia A100 (cublas vs SHARK)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/cuda_nodai7.png)
 
-### Results on Xeon Cascade Lake Codegen TVM, Halide, MLIR (GCP C2 instance, AVX 512)
-![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-02-03_21-27-25-624537/matmul.png)
+### Results on Intel Alderlake 12900k (AVX2)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/alderlake/2022-01-27_23-40-34-673036/matmul.png)
 
 ### Results on Intel XEON Skylake (iMAC PRO, AVX512)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-01-31_19-11-51-528540/matmul.png)
 
 ### Results on Xeon Cascade Lake (GCP C2 instance, AVX 512)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/cascadelake/2021-01-31_15-47-19-968148/matmul.png)
+
+### Results on Xeon Cascade Lake Codegen TVM, Halide, MLIR (GCP C2 instance, AVX 512)
+![Results](https://github.com/mmperf/mmperf/raw/main/official_results/skylake-avx512/2021-02-03_21-27-25-624537/matmul.png)
 
 ### Results on AMD Ryzen 5950x (ZenV3, compared to AMD's BLIS and OpenBLAS for RESNET50 sizes)
 ![Results](https://github.com/mmperf/mmperf/raw/main/official_results/znver2/2021-01-29_16-16-24-502902/matmul.png)
